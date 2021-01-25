@@ -1,29 +1,29 @@
-### Aliaksei Novik
+# Aliaksei Novik
 
-### Contact Info: 
+## Contact Info: 
 - phone: +375 (29) 503 51 98
 - mail: [novik.lexx@gmail.com](novik.lexx@gmail.com)
 - linkedin: https://linkedin.com/in/новик-алексей-701343204
 
-### Summary: 
+## Summary: 
 I want to change the field of work. I like to get new knowledge.
 
-## Skills
-**Hard skills:** 
+## Skills:
+**Hard skills** 
  * HTML5
  * CSS3
  * JS basics
  * Java basics
  * Photoshop
  
-**Soft skills:**
+**Soft skills**
  * Self management
  * Team work
 
  * Tolerance
  * Adaptability
  
-### Сode examples:
+## Сode examples:
 ```
 <script type="text/javascript">
 timestr = "00:00:00";
@@ -57,3 +57,13 @@ function cleartids() {
 <body onload="start(document.forms[0])" onunload="cleartids()">
 ```
 
+## Experience:
+I work as an engineer in a telecommunications company.
+
+## Education:
+- 2001 - 2004 Belarusian State Academy of Telecommunications.
+- 2004 - 2008 Belarusian State University of Informatics and Radio Electronics. 
+
+## English: 
+I have A2 level. I can write simple sentenses, read technical documentation and understand slow speech.
+I'm working on leveling up.
