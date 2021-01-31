@@ -1,1 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Verdana, sans-serif;
+    font-size: 20px;
+    background: black;
+}
+  
+.header-container {
+    width: 900px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+  
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 5px 2px rgb(71, 136, 233);
+}
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 2px rgb(71, 136, 233);
+}
+     
+a {
+    text-decoration: none;
+}
+
+table {
+    border: 2px solid gray;
+    width: 400px;
+}
+
+th {
+    border: 1px solid gray;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+pre {
+    margin: 10px 0px 10px 10px;
+    padding: 5px;
+    font-family: Courier, monospace;
+    font-size: 12px;
+    background-color: rgb(211, 207, 207);
+    white-space: pre-wrap;
+}
