@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>HTML, CSS & Git Basics</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="header-container">
+          <header>
+              <h1>Novik Aliaksey</h1>
+              <img src="photo.jpg"  alt="Aliaksey Novik" width="250" height="250">
+          </header>
+          <main>
+              <section>
+                  <h2>Contact Info:</h2>
+                  <ul>
+                      <li>Phone: +37(529) 503 51 98</li>
+                      <li>E-mail: Novik.lexx@gmail.com</li>
+                      <li>Linkedin: <a href="https://linkedin.com/in/новик-алексей-701343204">
+                        https://linkedin.com/in/новик-алексей-701343204</a></li>
+                  </ul>
+                  <h2>Summary:</h2>
+                  <p>I want to change the field of work. I like to get new knowledge.</p>
+              </section>
+              <section>
+                  <h2>Skills:</h2>
+                  <table>
+                    <tr>
+                        <th>Hard skills:</th>
+                        <th>Soft skills:</th>
+                    </tr>
+                    <tr>
+                        <td>HTML5/CSS3  </td>
+                        <td>Self management </td>
+                    </tr>
+                    <tr>
+                        <td>JS basics</td>
+                        <td>Team work</td>
+                    </tr>
+                    <tr>
+                        <td>Java basics</td>
+                        <td>Tolerance</td>
+                    </tr>
+                    <tr>
+                        <td>Photoshop</td>
+                        <td>Adaptability</td>
+                    </tr>
+                  </table>
+              </section>
+              <section>
+                <h2>Code examples:</h2>
+                  <pre>
+script type="text/javascript"
+timestr = "00:00:00";
+title=document.title;
+tid = 0;
+pause = 0;
+var to;
+var bcount;
+var tcount;
+function time(n) {D
+tid=window.setTimeout("time(1)",to);
+today = new Date()
+if(today.getMinutes()  10) pad = "0"
+else		    pad = "";
+if(today.getSeconds() 10) pads = "0"
+else  		    pads = "";
+timestr=today.getHours()+":"
++pad+today.getMinutes()+":"+pads+today.getSeconds();document.title = title+' '+timestr;
+window.clearTimeout(tid);
+tid=window.setTimeout("time()",to);
+}
+function start(x) {
+f=x;
+to=60;
+time(x);
+}
+function cleartids() {
+window.clearTimeout(tid);
+}
+script
+body onload="start(document.forms[0])" onunload="cleartids()"
+              </pre>
+              </section>
+              <section>
+                  <h2>Experience:</h2>
+                  <p>I work as an engineer in a telecommunications company.</p>
+              </section>
+              <section>
+                <h2>Education:</h2>
+                <ul>
+                    <li>2001 - 2004 Belarusian State Academy of Telecommunications.</li>
+                    <li>2004 - 2008 Belarusian State University of Informatics and Radio Electronics.</li>
+                </ul>
+              </section>
+              <section>
+                  <h2>English:</h2>
+                  <p>I have A2 level. I can write simple sentenses, read technical documentation and understand slow speech. I’m working on leveling up.</p>
+              </section>
+          </main>
+      </div> 
+  </body>
+</html>
