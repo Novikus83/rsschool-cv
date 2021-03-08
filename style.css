@@ -40,14 +40,6 @@ table {
     width: 400px;
 }
 
-th {
-    border: 1px solid gray;
-}
-
-td {
-    border: 1px solid gray;
-}
-
 pre {
     margin: 10px 0px 10px 10px;
     padding: 5px;
@@ -56,3 +48,20 @@ pre {
     background-color: rgb(211, 207, 207);
     white-space: pre-wrap;
 }
+
+.footer-container {
+    width: 900px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+  
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}  
